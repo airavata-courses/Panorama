@@ -12,3 +12,4 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 #Running on nginx server
+#Running react ui
