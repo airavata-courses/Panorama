@@ -27,3 +27,5 @@ sudo docker ps
 e) Verify the running container in the browser
 http://localhost:8000/
 
+
+
