@@ -4,10 +4,10 @@ pipeline{
         registry = 'panoramaiubads/gateway-service'
         registryCredential = 'docker-hub-credentials'
         dockerImage = ''
-        file_name = 'panorama-ui.yaml'
+        file_name = 'gateway-service.yaml'
         remote_dir_path = ''
         appName = 'gateway-service'
-        jenkinsAppDir = 'panorama-ui/gateway-service'
+        jenkinsAppDir = 'gateway-service'
         githuburl = 'https://raw.githubusercontent.com/airavata-courses/Panorama/cicd/gateway-service/gateway-service.yaml'
         kubeDir = '/home/ubuntu/deploy'
     }
